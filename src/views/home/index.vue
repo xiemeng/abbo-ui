@@ -20,6 +20,7 @@
 	    	dataList:[
 				{title:'基础组件',list:[
 					{name:'tab',router:'/tab'},
+					{name:'swiper',router:'/swiper'},
 				]},
 				{title:'弹窗组件',list:[
 					{name:'dialog',router:'/dialog'},
@@ -27,18 +28,12 @@
 				]},
 				{title:'滑动组件',list:[
 					{name:'loadMore',router:'/loadMore'},
-					{name:'headSwiper',router:'/headSwiper'},
-					{name:'swiper',router:'/swiper'},
+					{name:'headSwiper',router:'/headSwiper'}
 				]}
 			]
 	    }
 	  },
 	  methods:{
-	  	xToast(){
-	  		this.ovj.abc = 'ffff'
-	  		console.log(this.$abbo)
-	  		this.$abbo.toast.show('我是中国人')
-	  	}
 	  },
 	  created(){
 				
